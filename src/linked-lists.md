@@ -6,7 +6,7 @@ Given the head of a linked list, remove the nth node from the end of the list an
 
 Follow up: Could you do this in one pass?
 
-####Approach 1 (Time complexity - O(L), 2L- n operations)
+###Approach 1 (Time complexity - O(L), 2L- n operations)
 
 1) The n-th element from the end is the element number L - n +1 from the start.
 We need to find L - the list length. 
@@ -40,7 +40,7 @@ class Solution {
 }
 ```
 
-####Approach 2 (Time complexity - O(L), one pass)
+###Approach 2 (Time complexity - O(L), one pass)
 
 1) Advances the first pointer so that the gap between first and second is n nodes apart;
 2) Move the first pointer to the end, maintaining the gap. 
